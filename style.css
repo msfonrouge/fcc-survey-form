@@ -55,15 +55,20 @@ input[type="checkbox"] {
 label {
     display: flex;
     margin: 10px 0;
+    align-items: center;
 }
 
 textarea {
-    height: 100px;
-    resize: none;
+    min-height: 100px;
+    resize: vertical;
 }
 
 input[type="submit"] {
     margin-top: 20px;
     font-size: 1rem;
-    padding: 5px;
+    padding: 10px;
+    color: #fff;
+    background-color: #090;
+    border: none;
+    border-radius: 5px;
 }
